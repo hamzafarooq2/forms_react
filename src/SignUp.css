@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 20px;
+  margin: 0;
+}
+
+.checkbox-flex{
+  display: flex;
+  align-items: center;
+}
+.checkbox-flex label{
+  margin-left: 12px;
+  margin-bottom: 11px;
+}

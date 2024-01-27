@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+input {
+  margin-bottom: 15px;
+  height: 30px;
+  text-indent: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: block;
+}
+
+textarea {
+  margin-bottom: 15px;
+  border: 1px solid #444;
+  padding: 8px;
+  border-radius: 5px;
+  display: block;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+.checkbox label {
+  margin-left: 12px;
+  margin-bottom: 12px;
+}
+.radio-flex {
+  display: flex;
+  align-items: center;
+}
+.radio-flex label {
+  margin-left: 8px;
+  margin-bottom: 12px;
+}
